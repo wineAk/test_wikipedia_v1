@@ -1,4 +1,4 @@
-import{a as h,p as b,w as We,A as $e,v as Fe}from"./chunk-EF7DTUVF-D77U9ESA.js";import{f as Be,F as Ue}from"./fallback-DdXJfzip.js";const He="/";/**
+import{a as h,p as b,w as We,A as $e,v as Fe}from"./chunk-EF7DTUVF-D77U9ESA.js";import{f as Be,F as Ue}from"./fallback-DdXJfzip.js";const He="/test_wikipedia_v1/";/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
