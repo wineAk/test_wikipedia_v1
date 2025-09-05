@@ -13,6 +13,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { base_path } from "@/lib/config";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -74,7 +75,7 @@ function Resolve({ data }: { data: FetchWikipedia[] }) {
           </CardContent>
           <CardFooter className="mt-auto ml-auto">
             <Button variant="ghost" asChild>
-              <Link to={`/test_wikipedia/${title}`}>
+              <Link to={`/${base_path}/${title}`}>
                 <span>詳細</span>
                 <ArrowRightIcon className="w-4 h-4" />
               </Link>

@@ -1,0 +1,1 @@
+export const base_path = import.meta.env.BASE_URL;

@@ -3,6 +3,8 @@ import { Link, Outlet } from "react-router";
 import logoDark from "@/images/logo-dark.svg";
 import logoLight from "@/images/logo-light.svg";
 
+import { base_path } from "@/lib/config";
+
 export default function Layout() {
   return (
     <>
@@ -19,7 +21,7 @@ export default function Layout() {
 function Header() {
   return (
     <nav className="h-16 w-full p-4 fixed z-10 bg-background/50 backdrop-blur-sm border-b">
-      <Link to="/test_wikipedia/" className="h-full flex">
+      <Link to={`/${import.meta.env.BASE_URL}/`} className="h-full flex">
         <img
           src={logoLight}
           alt="React Router"
